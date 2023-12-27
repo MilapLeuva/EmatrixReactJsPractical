@@ -1,0 +1,161 @@
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.clientdetails {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+.client-actions {
+    margin-bottom: 20px;
+}
+
+.client-actions button {
+    margin-right: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.client-actions button:hover {
+    background-color: #2980b9;
+}
+
+.client-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.client-table th,
+.client-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.client-table th {
+    background-color: #f2f2f2;
+}
+
+.client-item {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.client-item:hover {
+    background-color: #cac7c7;
+    color: #333;
+}
+
+.selected {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.group-actions button {
+    margin-right: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.group-actions button:hover {
+    background-color: #2980b9;
+}
+
+.group-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.group-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.group-item:hover {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.selected {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    background-color: #2980b9;
+}
+
+.icon-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.icon-buttons.menu-open {
+    flex-direction: column;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.options button {
+    margin-bottom: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.options button:hover {
+    background-color: #2980b9;
+}
+
+.options button[disabled] {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
